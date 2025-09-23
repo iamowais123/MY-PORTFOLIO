@@ -37,14 +37,14 @@ export async function GET(request: NextRequest) {
       `;
 
     const response = await octokit.graphql(query, { username });
-    //   @ts-ignore
+    //   @ts-expect-error
     const calendar = response.user.contributionsCollection.contributionCalendar;
 
     //   Flatten the weeks array to get all contribution days
 
-    // @ts-ignore
+    // @ts-expect-error
     const contributions = calendar.weeks.flatMap((week) =>
-      // @ts-ignore
+      // @ts-expect-error
       week.contributionDays.map((day) => ({
         count: day.contributionCount,
         date: day.date,

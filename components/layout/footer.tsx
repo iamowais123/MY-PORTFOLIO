@@ -1,8 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail, Heart } from "lucide-react";
-import { motion } from "framer-motion";
+import { Github, Linkedin, Heart } from "lucide-react";
 
 export function Footer() {
   return (
