@@ -37,31 +37,33 @@ export async function GET(request: NextRequest) {
       `;
 
     const response = await octokit.graphql(query, { username });
-    //   @ts-expect-error
+
+    // @ts-expect-error: response type mismatch from octokit.graphql
     const calendar = response.user.contributionsCollection.contributionCalendar;
 
-    //   Flatten the weeks array to get all contribution days
+    // Flatten the weeks array to get all contribution days
 
-    // @ts-expect-error
+    // @ts-expect-error: calendar type not fully inferred
     const contributions = calendar.weeks.flatMap((week) =>
-      // @ts-expect-error
+      // @ts-expect-error: contributionDays type not fully inferred
       week.contributionDays.map((day) => ({
         count: day.contributionCount,
         date: day.date,
       }))
     );
 
+
     return NextResponse.json({
-        user:{
-            totalContribution:calendar.totalContributions
-        },
-        contributions
+      user: {
+        totalContribution: calendar.totalContributions
+      },
+      contributions
     })
   } catch (error) {
-    console.error("GITHUB API ERROR" , error)
+    console.error("GITHUB API ERROR", error)
     return NextResponse.json(
-        {error:"Failed to fetch github Data"},
-        {status:500}
+      { error: "Failed to fetch github Data" },
+      { status: 500 }
     )
   }
 }
