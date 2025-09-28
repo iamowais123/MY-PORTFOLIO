@@ -58,5 +58,20 @@ export const projects = [
     "Optimized for fast loading",
     "Purely built with HTML & CSS without any JavaScript"
   ]
+},
+{
+  title: "MyTodo",
+  description: "A user-specific todo app built with React, Next.js, and MongoDB. Features secure session-based authentication, responsive CRUD operations, and dark/light mode for a smooth user experience.",
+  image: "/light-todo.png",
+  technologies: ["React", "Next.js", "Tailwind CSS", "MongoDB"],
+  liveUrl: "https://todo-app-next-js-phi.vercel.app",  
+  githubUrl: "https://github.com/iamowais123/TODO-APP-NEXT-JS", 
+  features: [
+    "User-specific todos with session-based authentication",
+    "Full CRUD functionality: create, read, update, delete",
+    "Dark and light mode support",
+    "Responsive design for all devices",
+    "Clean UI with Tailwind CSS"
+  ]
 }
 ];
