@@ -28,6 +28,20 @@ const Hero = () => {
                                 Github
                             </Button>
                         </Link>
+                        <Link href={"https://leetcode.com/u/mdowaisjamal0556"} target="_blank">
+                            <Button variant={"outline"} className="gap-2">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 1024 1024"
+                                    fill="currentColor"
+                                    className="w-4 h-4"
+                                >
+                                    <path d="M640 128 384 384l192 192-192 192 64 64 256-256-192-192 192-192z" />
+                                </svg>
+                                LeetCode
+                            </Button>
+                        </Link>
+
                     </div>
                 </motion.div>
 
