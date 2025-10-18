@@ -15,16 +15,20 @@ export const technologies = [
     "name": "Web Security", "logo": "https://img.icons8.com/ios-filled/50/000000/shield.png"
   },
   {
-  "name": "Kubernetes",
-  "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"
-},
-{
-  "name": "Tailwind CSS",
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
-},
+    "name": "Kubernetes",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"
+  },
+  {
+    "name": "Tailwind CSS",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+  },
   {
     "name": "Payment",
     "logo": "https://cdn-icons-png.flaticon.com/512/126/126510.png"
+  },
+  {
+    "name": "Zustand",
+    "logo": "https://img.icons8.com/color/48/000000/bear.png"
   }
 ]
 
@@ -45,33 +49,33 @@ export const projects = [
     ]
   },
   {
-  title: "Premiere Vogue",
-  description: "A fully responsive fashion website built using only HTML and CSS, showcasing modern design, stylish layouts, and smooth user experience across all devices.",
-  image: "/premiere-vogue.png",
-  technologies: ["HTML", "CSS"],
-  liveUrl: "https://mypremierevogue.netlify.app", 
-  githubUrl: "https://github.com/iamowais123/Premier-Vogue",
-  features: [
-    "Fully responsive design for all devices",
-    "Modern and stylish layout",
-    "Clean and elegant UI/UX",
-    "Optimized for fast loading",
-    "Purely built with HTML & CSS without any JavaScript"
-  ]
-},
-{
-  title: "MyTodo",
-  description: "A user-specific todo app built with React, Next.js, and MongoDB. Features secure session-based authentication, responsive CRUD operations, and dark/light mode for a smooth user experience.",
-  image: "/light-todo.png",
-  technologies: ["React", "Next.js", "Tailwind CSS", "MongoDB"],
-  liveUrl: "https://todo-app-next-js-phi.vercel.app",  
-  githubUrl: "https://github.com/iamowais123/TODO-APP-NEXT-JS", 
-  features: [
-    "User-specific todos with session-based authentication",
-    "Full CRUD functionality: create, read, update, delete",
-    "Dark and light mode support",
-    "Responsive design for all devices",
-    "Clean UI with Tailwind CSS"
-  ]
-}
+    title: "Premiere Vogue",
+    description: "A fully responsive fashion website built using only HTML and CSS, showcasing modern design, stylish layouts, and smooth user experience across all devices.",
+    image: "/premiere-vogue.png",
+    technologies: ["HTML", "CSS"],
+    liveUrl: "https://mypremierevogue.netlify.app",
+    githubUrl: "https://github.com/iamowais123/Premier-Vogue",
+    features: [
+      "Fully responsive design for all devices",
+      "Modern and stylish layout",
+      "Clean and elegant UI/UX",
+      "Optimized for fast loading",
+      "Purely built with HTML & CSS without any JavaScript"
+    ]
+  },
+  {
+    title: "MyTodo",
+    description: "A user-specific todo app built with React, Next.js, and MongoDB. Features secure session-based authentication, responsive CRUD operations, and dark/light mode for a smooth user experience.",
+    image: "/light-todo.png",
+    technologies: ["React", "Next.js", "Tailwind CSS", "MongoDB"],
+    liveUrl: "https://todo-app-next-js-phi.vercel.app",
+    githubUrl: "https://github.com/iamowais123/TODO-APP-NEXT-JS",
+    features: [
+      "User-specific todos with session-based authentication",
+      "Full CRUD functionality: create, read, update, delete",
+      "Dark and light mode support",
+      "Responsive design for all devices",
+      "Clean UI with Tailwind CSS"
+    ]
+  }
 ];
