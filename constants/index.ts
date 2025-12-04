@@ -62,5 +62,38 @@ export const projects = [
       "Optimized for fast loading",
       "Purely built with HTML & CSS without any JavaScript"
     ]
+  },
+  {
+    title: "MERN Job Portal",
+    description: "A full-stack Job Portal application where students can apply for jobs and recruiters can post and manage job listings. Includes secure authentication, role-based access, job filtering, and a smooth user experience built with the MERN stack.",
+    image: "/job-portal.png",
+    technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT", "Tailwind CSS"],
+    liveUrl: "https://my-job-portals.netlify.app",  // add your deployed URL
+    githubUrl: "https://github.com/iamowais123/job-portal-backend",
+    features: [
+      "Student and Recruiter role-based authentication using JWT",
+      "Students can search, filter, and apply for jobs",
+      "Recruiters can post, update, and manage job listings",
+      "Advanced job filtering based on location, role, and category",
+      "State management using Redux Toolkit",
+      "Secure cookie-based login system",
+      "Fully functional MERN full-stack architecture"
+    ]
+  },
+  {
+    title: "MERN Todo App",
+    description: "A user-specific Todo application built with the MERN stack, featuring secure JWT authentication. Each user can create, update, delete, and mark todos as completed with a clean and responsive UI.",
+    image: "/my-todos.png",
+    technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT", "Tailwind CSS"],
+    liveUrl: "https://my-best-todo.netlify.app", // add your deployed URL
+    githubUrl: "https://github.com/iamowais123/my-todos-backend",
+    features: [
+      "JWT-based secure authentication",
+      "User-specific todos (each user can see only their own tasks)",
+      "Create, update, delete todos",
+      "Mark todos as completed with a single click",
+      "Responsive and clean UI",
+      "Full MERN stack architecture"
+    ]
   }
 ];
