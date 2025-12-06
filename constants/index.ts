@@ -9,7 +9,6 @@ export const technologies = [
   { name: "Redux", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" },
   { "name": "Express", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
   { "name": "Redis", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" },
-  { "name": "CircleCI", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/circleci/circleci-plain.svg" },
   { "name": "AWS", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" },
   {
     "name": "Web Security", "logo": "https://img.icons8.com/ios-filled/50/000000/shield.png"
